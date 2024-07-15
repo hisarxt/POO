@@ -1,5 +1,5 @@
 # POO - UnB
-Estudo de programação orientada a objetos, usando Java e UML.
+Estudo de programação orientada a objetos, utilizando Java e UML.
 
 ### 1 - Pesquise nas bibliografias sugeridas as definições sobre os seguinte termos:
 - a) Classe
@@ -33,3 +33,12 @@ de objetos aos quais os objetos se referem em determinado tempo.
 - t) Polimorfismo por coerção
 - u) Polimorfismo por inclusão
 - v) Polimorfismo paramétrico
+
+## 2 - Apresente os modificadores de acesso informando qual o nível de visibilidade que cada um deles fornece.
+### Public: 
+- Se o modificador for público, então uma suposta característica c, será visível para qualquer objeto e c será herdada pelas subclasses de uma classe C. E em UML um modificador público é representado pelo carácter "+".
+### Protected:
+- Se o modificador for protegido, então c será visível só para os objetos da classe C e para os objetos das subclasses de C. E em UML é representado pelo carácter "#".
+### Private:
+- Se o modificador for privado, então c será visível apenas para os objetos da classe C e nesse caso c não será herdada pelas subclasses de C. É representado pelo carácter "-" em UML.
+
