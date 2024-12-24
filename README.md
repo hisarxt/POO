@@ -26,13 +26,21 @@ de objetos aos quais os objetos se referem em determinado tempo.
 - n) Herança
    - A herança permite que uma classe (chamada de classe derivada ou subclasse) herde atributos e métodos de outra classe (chamada de classe base, superclasse ou pai). Isso significa que a classe derivada pode aproveitar a estrutura e comportamentos já definidos na classe base, estendendo ou modificando seu comportamento conforme necessário.
 - o) Generalização
+   - Processo onde classes mais específicas (subclasses) são unificadas em uma classe mais genérica (superclasse). É o oposto de especialização, onde você cria novas classes a partir de uma mais genérica.
 - p) Especialização
+   - O oposto da generalização. Refere-se à criação de classes mais específicas (subclasses) a partir de uma classe genérica (superclasse).
 - q) Polimorfismo
+   - O conceito de "múltiplas formas". Em programação orientada a objetos, significa que uma mesma operação (como um método) pode se comportar de maneiras diferentes, dependendo do objeto que a chama.
 - r) Sobrescrita de métodos
+   - Refere-se ao ato de uma subclasse redefinir um método da superclasse, fornecendo uma implementação específica. A assinatura do método na subclasse deve ser a mesma da superclasse.
 - s) Sobrecarga de métodos
+   - É quando você tem vários métodos com o mesmo nome, mas com diferentes parâmetros (número ou tipo de parâmetros). Isso permite chamar o mesmo método com diferentes formas de entrada.
 - t) Polimorfismo por coerção
+   - Ocorre quando o tipo de um objeto é convertido automaticamente (por exemplo, de um tipo mais específico para um tipo mais genérico), permitindo que ele seja tratado como se fosse de outro tipo.
 - u) Polimorfismo por inclusão
+   - Também conhecido como polimorfismo de herança. Refere-se ao fato de que um objeto de uma subclasse pode ser tratado como se fosse um objeto da superclasse. Por exemplo, um objeto da classe Cachorro pode ser tratado como um objeto da classe Animal se Cachorro herdar de Animal.
 - v) Polimorfismo paramétrico
+   - É o polimorfismo implementado por meio de tipos genéricos. Ou seja, você define funções ou classes que podem trabalhar com diferentes tipos de dados sem definir explicitamente o tipo. Por exemplo, em Java, C# ou C++, isso é implementado com o uso de "generics".
 
 ## 2 - Apresente os modificadores de acesso informando qual o nível de visibilidade que cada um deles fornece.
 ### Public: 
